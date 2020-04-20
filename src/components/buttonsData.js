@@ -1,0 +1,52 @@
+export const buttonsData={
+    btnsData:[
+        {
+            name:'q',
+            symbol:'Q',   
+            sound:'https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3'                                
+        },
+        {
+            name:'w',
+            symbol:'W', 
+            sound:'https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3'                                    
+        },  
+        {
+            name:'e',
+            symbol:'E',   
+            sound:'https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3'                                  
+        },
+        {
+            name:'a',
+            symbol:'A', 
+            sound:'https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3'                                    
+        }, 
+        {
+            name:'s',
+            symbol:'S',              
+            sound:'https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3'                       
+        },
+        {
+            name:'d',
+            symbol:'D',       
+            sound:'https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3'                              
+        },  
+        {
+            name:'z',
+            symbol:'Z',   
+            sound:'https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3'                                  
+        },  
+        {
+            name:'x',
+            symbol:'X',      
+            sound:'https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3'                               
+        },
+        {
+            name:'c',
+            symbol:'C',                  
+            sound:'https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3'                   
+        },        
+    ]
+}
+export default buttonsData;
+
+//<button id="decimal" onClick={() => this.props.handleClick(".")}>.</button>
