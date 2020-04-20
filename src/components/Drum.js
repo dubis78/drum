@@ -8,16 +8,12 @@ class Calculator extends React.Component {
   constructor(props) {
     super(props);
     this.playSound = this.playSound.bind(this);
-    //this.activatePad = this.activatePad.bind(this);
   }
 
   playSound(e) {
-    const sound = document.getElementById('Q') ;
+    const sound = document.getElementById('playSound') ;
     console.log(sound);
-    //sound.currentTime = 0;
     sound.play();
-    //this.activatePad();
-    //setTimeout(() => 200);
   }
 
   render() {
@@ -27,7 +23,9 @@ class Calculator extends React.Component {
             handleClick={this.handleClick} 
             name={Data.btnsData[0].name}
             symbol={Data.btnsData[0].symbol}
+            sound={Data.btnsData[0].sound}
             playSound={this.playSound}
+            
 
         />
         <Button
@@ -35,48 +33,56 @@ class Calculator extends React.Component {
             name={Data.btnsData[1].name}
             symbol={Data.btnsData[1].symbol}
             sound={Data.btnsData[1].sound}
+            playSound={this.playSound}
         />
         <Button
             handleClick={this.handleClick} 
             name={Data.btnsData[2].name}
             symbol={Data.btnsData[2].symbol}
             sound={Data.btnsData[2].sound}
+            playSound={this.playSound}
         />
         <Button
             handleClick={this.handleClick} 
             name={Data.btnsData[3].name}
             symbol={Data.btnsData[3].symbol}
             sound={Data.btnsData[3].sound}
+            playSound={this.playSound}
         />
         <Button
             handleClick={this.handleClick} 
             name={Data.btnsData[4].name}
             symbol={Data.btnsData[4].symbol}
             sound={Data.btnsData[4].sound}
+            playSound={this.playSound}
         />
         <Button
             handleClick={this.handleClick} 
             name={Data.btnsData[5].name}
             symbol={Data.btnsData[5].symbol}
             sound={Data.btnsData[5].sound}
+            playSound={this.playSound}
         />
         <Button
             handleClick={this.handleClick} 
             name={Data.btnsData[6].name}
             symbol={Data.btnsData[6].symbol}
             sound={Data.btnsData[6].sound}
+            playSound={this.playSound}
         />
         <Button
             handleClick={this.handleClick} 
             name={Data.btnsData[7].name}
             symbol={Data.btnsData[7].symbol}
             sound={Data.btnsData[7].sound}
+            playSound={this.playSound}
         />
         <Button
             handleClick={this.handleClick} 
             name={Data.btnsData[8].name}
             symbol={Data.btnsData[8].symbol}
             sound={Data.btnsData[8].sound}
+            playSound={this.playSound}
         />
       </main>
     );
